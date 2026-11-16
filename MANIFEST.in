@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include upi_soundbox *.css
+recursive-include upi_soundbox *.csv
+recursive-include upi_soundbox *.html
+recursive-include upi_soundbox *.ico
+recursive-include upi_soundbox *.js
+recursive-include upi_soundbox *.json
+recursive-include upi_soundbox *.md
+recursive-include upi_soundbox *.png
+recursive-include upi_soundbox *.py
+recursive-include upi_soundbox *.svg
+recursive-include upi_soundbox *.txt
+recursive-exclude upi_soundbox *.pyc
